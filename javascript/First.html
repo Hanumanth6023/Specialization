@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script>
+var c;
+function calculate(c){
+var a=parseInt(document.f1.n1.value);
+var b=parseInt(document.f1.n2.value);
+if(c==1)
+{
+document.getElementById("s1").innerText=a+b;
+}
+else if(c==2){
+document.getElementById("s2").innerText=a-b;
+}
+else if(c==3){
+document.getElementById("s3").innerText=a*b;
+}
+else if(c==4){
+document.getElementById("s4").innerText=a/b;
+}
+}
+</script>
+</head>
+<body>
+<hr>
+<form name="f1">
+ Value1:<input type="number" name="n1" #v1><br>
+ Value2:<input type="number" name="n2" #v2><br>
+<input type="button" value="add" onclick="calculate(1)" >
+<input type="button" value="sub" onclick="calculate(2)" >
+<input type="button" value="mul" onclick="calculate(3)" >
+<input type="button" value="div" onclick="calculate(4)" >
+</form>
+<h3>result (a+b) ::<span id="s1"></span>
+<h3>result (a-b) ::<span id="s2"></span>
+<h3>result (a*b) ::<span id="s3"></span>
+<h3>result(a/b)  ::<span id="s4"></span>
+</h3>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+             obj=new Object()
+             obj.name="Hanu";
+             obj.age=20;
+
+             obj1=new Object()
+             obj1.name="sanju";
+             obj1.age=20;
+
+
+    </script>
+
+    <script>
+
+
+           function Emp(name,age,salary){
+
+            this.name=name;
+            this.age=age;
+            this.salary=salary;
+
+           }
+           
+    </script>
+
+    <script>
+            var e1={'name':'amith','age':22,'salary':10000};
+            var e2={'name':'ajay','age':22,'salary':14000};
+
+    </script>
+
+</head>
+<body>
+    
+    <h1>
+        First type of object creation using object
+    </h1>
+
+    <script>
+        document.write('<h2> By usig object constructor</h2>')
+        document.write('Name'+" "+obj.name);
+        document.write('<br>Age'+obj.age)
+        document.write('<br><br>Name'+obj1.name);
+        document.write('<br>age'+obj1.age);
+    </script>
+
+<h1>
+    second type of object creation using function
+</h1>
+
+<script>
+    var emp=new Emp('rahul',22,120000);
+    var emp1=new Emp('ramu',22,110000);
+    document.write('<h2> By usig function constructor</h2>')
+    document.write('Name'+" "+emp.name);
+    document.write('<br>Age'+emp.age);
+    document.write('<br>salary'+emp.salary);
+    document.write('<br><br>name'+emp1.name);
+    document.write('<br>Age'+emp1.age);
+    document.write('<br>salary'+emp1.salary);
+</script>
+
+<h1>
+    Third type of object creation using JSON
+</h1>
+
+<script>
+    
+    document.write('<h2> By usig Json</h2>')
+    document.write('Name'+" "+e1.name);
+    document.write('<br>Age'+e1.age);
+    document.write('<br>salary'+e1.salary);
+    document.write('<br><br>name'+e2.name);
+    document.write('<br>Age'+e2.age);
+    document.write('<br>salary'+e2.salary);
+</script>
+
+
+</body>
+</html>
