@@ -1,0 +1,52 @@
+Typescript:
+===========
+
+-->  Typescript is a interpreted and compiler.
+
+-->  typescript code we have to compile by using command(tsc file.ts)
+
+-->  It will generate .js file
+
+-->  ts--->js--->execute......
+
+
+how to install typescript:-
+--------------------------------
+
+npm (node package manager),
+
+command to install typescripy : : npm install -g typescript
+
+tsc abc.ts //compile
+
+node abc.js //Run
+
+ts-node abc.ts  // both compile and run
+
+
+Advantages of typescript:-
+-------------------------
+
+1) type annotations with compile time checking
+2) compile and interpreted
+3) access modifier(public,protected,private)
+4) type support
+5) interface
+6) generics
+7) Decorators
+
+public is the default access modifier in typescript
+
+a:number = 12;
+
+typescript datatype:-
+---------------------
+
+number,string,boolean,enum,void,null,undefined,any,never,array,tuple.
+
+
+generics:
+---------
+
+generics are used to restrict the client to input only the specified datatype.
+
