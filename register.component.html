@@ -1,0 +1,76 @@
+     <form  #user="ngForm" (submit)="save(user.value)">
+      
+      <table id="somu" align="center" cellpadding = "5">
+        <tr>
+          <td colspan="2"><h1 >Bank registration Form</h1></td>
+        </tr>
+        
+      <tr>
+        <td for="id">ID</td>
+        <td><input type="text" name="id" ngModel id="id"></td>
+      </tr>
+
+      <tr>
+        <td for="firstname">firstname</td>
+        <td><input type="text" name="firstname" ngModel ></td>
+      </tr>
+
+      <tr>
+        <td for="lastname">lastname</td>
+        <td><input type="text" name="lastname" ngModel ></td>
+      </tr>
+
+       <tr>
+        <td for="emailid">emailid</td>
+        <td><input type="text" name="emailid" ngModel ></td>
+      </tr>
+
+      <tr>
+        <td for="password">password</td>
+        <td><input type="text" name="password" ngModel ></td>
+      </tr>
+
+        <tr>
+        <td for="confirmpassword">confirmpassword </td>
+        <td><input type="text" name="confirmpassword" ngModel ></td>
+      </tr>
+
+      <tr>
+        <td for="Date of Birth">DOB</td>
+        <td><input type="text" name="DOB" ngModel ></td>
+      </tr>
+
+      <tr>
+        <td for="mobileno">mobileno</td>
+        <td><input type="text" name="mobileno" ngModel ></td>
+      </tr>
+      
+      <tr>
+        <td for="account">account</td>
+        <td><input type="text" name="account" ngModel ></td>
+       <!-- <td name="account" ngModel ><select name="account" id="account">
+         <option value="saving account">saving account</option>
+          <option value="current account">current account</option>
+          <option value="bussiness account">bussiness account</option></select></td>  -->
+      </tr>
+      
+        <tr>
+          <td> </td>
+          <td><input type="submit" value="register" ></td>
+        </tr>
+        
+        <tr>
+          <td> </td>
+          <td><input type="reset" value="clear" ></td>
+        </tr>
+        
+      </table>
+    </form>
+   
+
+
+
+
+
+
+
